@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <PackageId>Macaroons.NETCore</PackageId>
+        <PackageVersion>1.0.4</PackageVersion>
+        <Title>Macaroons.Net</Title>
+        <Authors>JornWildt </Authors>
+        <Description>A C# implementation of [macaroons](http://research.google.com/pubs/pub41892.html) for .NET Core</Description>
+        <PackageProjectUrl>https://github.com/cyberdot/Macaroons.NETCore</PackageProjectUrl>
+        <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/cyberdot/Macaroons.NETCore</RepositoryUrl>
+        <RepositoryType>GitHub</RepositoryType>
+        <PackageTags>macaroons</PackageTags>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="CuttingEdge.Conditions.NetStandard" Version="1.2.0" />
+        <PackageReference Include="Sodium.Core" Version="1.2.3" />
+        <PackageReference Include="System.Memory" Version="4.5.4" />
+    </ItemGroup>
+
+</Project>

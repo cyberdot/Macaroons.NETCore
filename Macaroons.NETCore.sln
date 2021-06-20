@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Macaroons.Net", "src\Macaroons.Net\Macaroons.Net.csproj", "{EDA8AB1D-DF10-44D5-B52C-D6ABE1196E8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Macaroons.Net.Tests", "src\Macaroons.Net.Tests\Macaroons.Net.Tests.csproj", "{4D602B80-CBED-4E6F-9039-7A86E45AFFE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Macaroons.Net.Performance.Tests", "src\Macaroons.Net.Performance.Tests\Macaroons.Net.Performance.Tests.csproj", "{FB6706DA-7CD9-4259-9CD7-412312E5E2CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Macaroons.Net.Walkthrough", "src\Macaroons.Net.Walkthrough\Macaroons.Net.Walkthrough.csproj", "{8573A8DA-CAEE-4814-BCEB-FB30E149C292}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{46325BC2-12E8-4F3E-B901-396244214CC1}"
+ProjectSection(SolutionItems) = preProject
+	CODEBASE.TXT = CODEBASE.TXT
+	LICENSE.TXT = LICENSE.TXT
+	README.md = README.md
+	WALKTHROUGH.TXT = WALKTHROUGH.TXT
+EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDA8AB1D-DF10-44D5-B52C-D6ABE1196E8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDA8AB1D-DF10-44D5-B52C-D6ABE1196E8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDA8AB1D-DF10-44D5-B52C-D6ABE1196E8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDA8AB1D-DF10-44D5-B52C-D6ABE1196E8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D602B80-CBED-4E6F-9039-7A86E45AFFE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D602B80-CBED-4E6F-9039-7A86E45AFFE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D602B80-CBED-4E6F-9039-7A86E45AFFE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D602B80-CBED-4E6F-9039-7A86E45AFFE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB6706DA-7CD9-4259-9CD7-412312E5E2CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB6706DA-7CD9-4259-9CD7-412312E5E2CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB6706DA-7CD9-4259-9CD7-412312E5E2CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB6706DA-7CD9-4259-9CD7-412312E5E2CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8573A8DA-CAEE-4814-BCEB-FB30E149C292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8573A8DA-CAEE-4814-BCEB-FB30E149C292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8573A8DA-CAEE-4814-BCEB-FB30E149C292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8573A8DA-CAEE-4814-BCEB-FB30E149C292}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
